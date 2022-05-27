@@ -54,33 +54,33 @@ function App() {
             <div className='calculator-container'>
                 <Screen outputText={input} />
                 <div className='fila-calculadora'>
-                    <Button handleClick={handleClear} children="Clear" double='true'/>
-                    <Button handleClick={handleCharDelete} children={<RiDeleteBack2Line />} />
-                    <Button handleClick={addInput} children='*' />
+                    <Button handleClick={handleClear} children="Clear" double='true' symbol='true' />
+                    <Button handleClick={handleCharDelete} children={<RiDeleteBack2Line />} symbol='true' />
+                    <Button handleClick={addInput} children='*' symbol='true' />
                 </div>
                 <div className='fila-calculadora'>
                     <Button handleClick={addInput} children="7" />
                     <Button handleClick={addInput} children="8" />
                     <Button handleClick={addInput} children="9" />
-                    <Button handleClick={addInput} children='/' />
+                    <Button handleClick={addInput} children='/' symbol='true' />
                 </div>
                 <div className='fila-calculadora'>
                     <Button handleClick={addInput} children="4" />
                     <Button handleClick={addInput} children="5" />
                     <Button handleClick={addInput} children="6" />
-                    <Button handleClick={addInput} children='-' />
+                    <Button handleClick={addInput} children='-' symbol='true' />
                 </div>
                 <div className='fila-calculadora'>
                     <Button handleClick={addInput} children="1" />
                     <Button handleClick={addInput} children="2" />
                     <Button handleClick={addInput} children="3" />
-                    <Button handleClick={addInput} children='+' />
+                    <Button handleClick={addInput} children='+' symbol='true' />
                 </div>
                 <div className='fila-calculadora'>
                     <Button handleClick={addInput} children="0" />
                     <Button handleClick={addInput} children="00" />
                     <Button handleClick={addInput} children="." />
-                    <Button handleClick={calculate} children='=' />
+                    <Button handleClick={calculate} children='=' symbol='true' />
                 </div>
             </div>
         </div>

@@ -1,8 +1,10 @@
 :root {
-  --main-bg-color: #CED4DA;
-  --calculator-bg-color: #6C757D;
-  --blur-main-container-color: #ADB5BD;
+  --main-bg-color: #212529;
+  --calculator-bg-color: #fca311;
   --button-color: #212529;
+  --button-symbol-color: #2125299f;
+  --button-hover: #e5e5e5;
+  --button-border: white;
 }
 
 * {
@@ -23,8 +25,8 @@
 .calculator-container {
   width: 560px;
   background-color: var(--calculator-bg-color);
-  border-radius: 10px;
-  box-shadow: 0 0 20px 5px var(--blur-main-container-color);
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 2px rgb(31, 29, 29);
   padding: 20px;
 }
 

@@ -4,7 +4,7 @@ import '../stylesheets/Button.css'
 function Button(props) {
     return (
         <div 
-        className={`${props.double ? 'btn double-btn' : 'btn'}`} 
+        className={`${props.double ? 'btn double-btn' : 'btn'} ${props.symbol ? 'symbol-btn' : ''}`} 
         onClick={() => props.handleClick(props.children)} >
             {props.children}
         </div>

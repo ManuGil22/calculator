@@ -2,7 +2,7 @@
     height: 65px;
     max-width: 110px;
     margin: 10px 10px;
-    border: 2px solid var(--blur-main-container-color);
+    border: 2px solid var(--button-border);
     border-radius: 7px;
     color: white;
     background-color: var(--button-color);
@@ -18,4 +18,15 @@
 .double-btn {
     flex: 2 1;
     max-width: none;
+}
+
+.symbol-btn {
+    background-color: var(--button-symbol-color);
+}
+
+.btn:hover{
+    background-color: var(--button-hover);
+    color: var(--button-color);
+    box-shadow: 0 0 5px 1px var(--button-color);
+    border: 2px solid var(--button-hover);
 }
