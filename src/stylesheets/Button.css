@@ -1,0 +1,21 @@
+.btn {
+    height: 65px;
+    max-width: 110px;
+    margin: 10px 10px;
+    border: 2px solid var(--blur-main-container-color);
+    border-radius: 7px;
+    color: white;
+    background-color: var(--button-color);
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.double-btn {
+    flex: 2 1;
+    max-width: none;
+}
