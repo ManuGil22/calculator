@@ -35,3 +35,16 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .calculator-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .calculator-container {
+    width: 400px;
+    padding: 20px 10px;
+  }
+}
